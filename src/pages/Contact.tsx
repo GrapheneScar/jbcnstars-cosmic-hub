@@ -188,9 +188,13 @@ All questions encourage logical thinking and creative problem-solving using grad
                   <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
                   <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
                   <p className="text-muted-foreground text-sm mb-4">Come visit our campus at JBCN Parel, Mumbai</p>
-                  <Button variant="outline" className="w-full">
-                    Get Directions
-                  </Button>
+                <Button 
+  variant="outline" 
+  className="w-full"
+  onClick={() => window.open('https://www.google.com/maps/place/JBCN+International+School+Parel/@18.9979566,72.8419733,17z', '_blank')}
+>
+  Get Directions
+</Button>
                 </div>
               </div>
             </div>
