@@ -298,7 +298,7 @@ const Gallery = () => {
             </Button>
             
             {/* Rick Roll Easter Egg */}
-            <RickRollEasterEgg liveStreamUrl="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="rounded-full" />
+            <RickRollEasterEgg liveStreamUrl="https://www.youtube.com/live/vQbFbA2VoLA" className="rounded-full" />
           </div>
 
           {/* Gallery Content */}
