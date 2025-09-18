@@ -373,10 +373,14 @@ const Resources = () => {
                 <p className="text-foreground-muted max-w-md">
                   Download past papers and begin your preparation journey for JBCN Stars 2025
                 </p>
-                <Button size="lg" className="mt-4">
-                  <Download className="w-5 h-5 mr-2" />
-                  Download All Resources
-                </Button>
+                <Button 
+  size="lg" 
+  className="mt-4"
+  onClick={() => window.open("https://drive.google.com/drive/folders/1_Xlq8Qz6wvofVBOJGcko9ItzQDCO86pU?usp=sharing", "_blank")}
+>
+  <Download className="w-5 h-5 mr-2" />
+  Download All Resources
+</Button>
               </CardContent>
             </Card>
           </div>
