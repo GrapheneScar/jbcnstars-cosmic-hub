@@ -343,21 +343,21 @@ const Resources = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <Card className="text-center bg-card border-card-border">
                 <CardContent className="p-6">
-                  <div className="text-3xl font-black text-primary mb-2">25+</div>
+                  <div className="text-3xl font-black text-primary mb-2">10+</div>
                   <p className="text-foreground-muted text-sm">Question Papers</p>
                 </CardContent>
               </Card>
               
               <Card className="text-center bg-card border-card-border">
                 <CardContent className="p-6">
-                  <div className="text-3xl font-black text-primary mb-2">10K+</div>
+                  <div className="text-3xl font-black text-primary mb-2">200+</div>
                   <p className="text-foreground-muted text-sm">Total Downloads</p>
                 </CardContent>
               </Card>
               
               <Card className="text-center bg-card border-card-border">
                 <CardContent className="p-6">
-                  <div className="text-3xl font-black text-primary mb-2">5</div>
+                  <div className="text-3xl font-black text-primary mb-2">2</div>
                   <p className="text-foreground-muted text-sm">Years of Papers</p>
                 </CardContent>
               </Card>
