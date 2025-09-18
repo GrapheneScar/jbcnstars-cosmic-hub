@@ -50,7 +50,7 @@ const InstagramEasterEgg: React.FC<InstagramEasterEggProps> = ({ className }) =>
 
   const handleClick = () => {
     if (!isHolding) {
-      window.open('https://instagram.com/jbcnstars', '_blank');
+      window.open('https://www.instagram.com/jbcn_parel/', '_blank');
     }
   };
 
